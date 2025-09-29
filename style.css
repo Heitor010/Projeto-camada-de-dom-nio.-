@@ -1,0 +1,130 @@
+/* Importando uma fonte do Google Fonts para um visual mais moderno e limpo */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Estilos gerais do corpo da página */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f2f5; /* Fundo cinza claro */
+    color: #444;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #e53935; /* Vermelho vibrante, cor de tomate */
+    color: #fff;
+    text-align: center;
+    padding: 3rem 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3.5rem;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* Estilos principais do conteúdo */
+main {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* Estilos para seções e títulos */
+section {
+    background-color: #fff;
+    padding: 3rem;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #e53935;
+    text-align: center;
+    font-size: 2.5rem;
+    border-bottom: 3px solid #e53935;
+    padding-bottom: 0.75rem;
+    margin-bottom: 3rem;
+}
+
+/* Estilos para os itens do cardápio */
+.cardapio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+article {
+    text-align: center;
+    background-color: #fafafa;
+    padding: 1.5rem;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+article:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+article h4 {
+    color: #4caf50; /* Verde oliva, cor de azeitona */
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+article img:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos da linha separadora */
+hr {
+    border: none;
+    border-top: 2px dashed #ddd;
+    margin: 4rem 0;
+}
+
+/* Estilos para a seção "Sobre Nós" */
+#sobre-nos {
+    text-align: center;
+}
+
+#sobre-nos img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos do rodapé */
+footer {
+    text-align: center;
+    padding: 2.5rem 0;
+    background-color: #333;
+    color: #f0f2f5;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
